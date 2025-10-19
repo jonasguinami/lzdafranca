@@ -91,19 +91,24 @@ p {
     z-index: 1000;
 }
 
-.logo {
-    font-family: 'Syncopate', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    background-image: var(--gradient-border);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-transform: none; /* Adicione esta linha para anular o uppercase */
+/* --- ESTILO DEFINITIVO DO LOGO SVG --- */
+.logo-svg {
+    /* Ajuste o tamanho do logo aqui se precisar */
+    width: 75px;
+    height: 38px;
 }
 
-.logo span {
-    text-transform: lowercase; /* Força o 'z' a ser sempre minúsculo */
+.logo-L {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.logo-z {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-transform: lowercase;
 }
 
 .navbar nav a {
@@ -737,3 +742,4 @@ main {
     }
 
 }
+
