@@ -99,6 +99,11 @@ p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    text-transform: none; /* Adicione esta linha para anular o uppercase */
+}
+
+.logo span {
+    text-transform: lowercase; /* Força o 'z' a ser sempre minúsculo */
 }
 
 .navbar nav a {
@@ -730,4 +735,5 @@ main {
         padding: 16px 20px;
         font-size: 0.9rem;
     }
+
 }
